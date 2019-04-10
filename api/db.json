@@ -1,39 +1,26 @@
 {
   "streams": [
     {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 1
-    },
-    {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 2
-    },
-    {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 3
-    },
-    {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 4
-    },
-    {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 5
-    },
-    {
-      "function(){return!window.__REDUX_DEVTOOLS_EXTENSION_LOCKED__": "",
-      "a.dispatch.apply(a,arguments)}": "",
-      "id": 6
-    },
-    {
       "title": "shashank",
       "description": "my descripton",
       "id": 7
+    },
+    {
+      "title": "sheethal stream",
+      "description": "sheethals stream",
+      "id": 8
+    },
+    {
+      "title": "i created this stream",
+      "description": "stream made by me",
+      "userId": "111135573446017031520",
+      "id": 9
+    },
+    {
+      "title": "Programmatic navigation",
+      "description": "you should not see in form page",
+      "userId": "111135573446017031520",
+      "id": 10
     }
   ]
 }
