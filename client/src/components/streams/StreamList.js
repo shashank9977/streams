@@ -15,7 +15,7 @@ renderAdmin(stream){
                 <Link to={`/streams/edit/${stream.id}`} className="ui button primary">Edit</Link>
                 <Link className="ui button negative">Delete</Link>
             </div>
-        )
+        );
     }
 }
 
@@ -34,8 +34,7 @@ renderList(){
     });
 }
 
-    renderCreate(){
-       
+    renderCreate(){       
         if(this.props.IsSignedIn){
                 return(
                         <div style={{textAlign:"right"}}>

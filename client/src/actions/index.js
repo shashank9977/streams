@@ -26,7 +26,6 @@ export const createStream=(formValues)=> async(dispatch,getState)=>{
   dispatch({type:CREATE_STREAM, payload:response.data});
 
   // Do some programmatic navigation to get users  back to root route.
-
     history.push('/'); // our own history object
 
 }
