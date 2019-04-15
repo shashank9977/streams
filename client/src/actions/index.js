@@ -41,8 +41,11 @@ export const fetchStream=(id)=>async(dispatch)=>{
 }
 
 export const editStream=(id, formValues)=>async(dispatch)=>{
-    const response=await streams.put(`/streams/${id}`, formValues);
+  //  const response=await streams.put(`/streams/${id}`, formValues); // put updates all the properties in the database, so can lead to missed properties as we update less props
+    
+    const response=await streams.patch(`/streams/${id}`, formValues); // with just those forvalues could be updated leading to no loss in data properties.
     dispatch({type:EDIT_STREAM, payload:response.data});
+    history.push('/'); // our own history object
 }
 
 export const deleteStream=(id)=>async(dispatch)=>{
